@@ -1,0 +1,56 @@
+header {
+  background-color: #EAC926;
+  font-family: 'Roboto',
+  sans-serif;
+  font-size: 12px;
+  color: black;
+}
+
+ul {
+  list-style: none;
+  padding:0;
+  margin:0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+p {
+  font-size: 12px;
+}
+
+.titular {
+  font-size: 24px;
+}
+
+.precio {
+  font-size: 18px;
+}
+
+.descuentos {
+  font-size: 16px;
+}
+
+.descripcion {
+  font-size: 16px;
+}
+
+
+.texto-centrado {
+  text-align: center;
+}
+
+.fa-bars {
+  background-color: #03264C;
+  color: white;
+  padding: 5px 5px;
+  border-radius: 20%;
+  margin: 5px 5px;
+}
+
+footer .fas {
+  color: #1259c3;
+}
+
