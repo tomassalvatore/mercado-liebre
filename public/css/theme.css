@@ -1,0 +1,65 @@
+html,
+body {
+  font-family: 'Roboto',
+    sans-serif;
+  background-color: #ebebeb;
+  font-size: 12px;
+}
+
+main {
+  padding: 10px 10px;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  font-size: 12px;
+  color: black;
+}
+
+.bg-yellow {
+  background-color: #EAC926;
+}
+
+.bg-light-gray {
+  background-color: #ebebeb;
+}
+
+.color-green {
+  color: #39b54a;
+}
+
+img {
+  max-width: 100%;
+}
+
+.font-heading {
+  font-size: 24px;
+}
+
+.precio {
+  font-size: 18px;
+}
+
+.font-sixteen {
+  font-size: 16px;
+}
+
+.texto-centrado {
+  text-align: center;
+}
+
+.fa-bars {
+  background-color: #1259c3;
+  color: white;
+  padding: 5px 5px;
+  border-radius: 20%;
+  margin: 5px 5px;
+}
+
+footer .fas {
+  color: #1259c3;
+}
