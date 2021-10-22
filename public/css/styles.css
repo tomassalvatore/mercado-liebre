@@ -1,5 +1,10 @@
-nav.navbar ul {
+h1 {
+  margin: 0;
   padding: 0;
+}
+
+nav.navbar ul {
+  padding: 10px 0px;
   margin: 0;
 }
 
@@ -10,4 +15,28 @@ nav.navbar ul li {
 nav.navbar ul li a {
   text-decoration: none;
   color: black;
+}
+
+.burger-menu i {
+  background-color: #1259c3;
+  color: white;
+  padding: 5px;
+  border-radius: 20%;
+  margin: 5px;
+}
+
+.divisory-line {
+  background-color: white;
+  border-top: solid #ebebeb 1px;
+}
+
+.fa-truck {
+  color: green;
+  padding: 5px;
+  border: solid green 1px;
+  border-radius: 50%;
+}
+
+footer .fas {
+  color: #1259c3;
 }
