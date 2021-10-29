@@ -7,17 +7,7 @@ body {
 }
 
 .logo {
-  width: 40%;
-}
-
-.container {
-  width: 90%;
-  margin: 0 auto;
-  padding: 10px 0px;
-}
-
-.product {
-  margin-bottom: 15px 0;
+  width: 50%;
 }
 
 nav {
@@ -27,6 +17,7 @@ nav {
 header {
   font-size: 12px;
   color: black;
+  padding: 20px;
 }
 
 .bg-yellow {
@@ -41,16 +32,8 @@ header {
   color: #39b54a;
 }
 
-img {
-  max-width: 100%;
-}
-
 .font-heading {
   font-size: 24px;
-}
-
-.precio {
-  font-size: 18px;
 }
 
 .font-sixteen {
@@ -61,23 +44,15 @@ img {
   text-align: center;
 }
 
-@media (min-width: 480px) {
-  .descripcion {
-    display: none;
-  }
-  nav{
-    display: initial;
-  }
-
-  main article {
-    box-shadow: 0px 0px 10px rgb(100, 100, 100);
-  }
-
-  .burger-menu {
-    display: none;
-  }
+img {
+  max-width: 100%;
 }
 
-@media (min-width: 768px) {
+.w50{
+  width: 50%;
+}
+
+.bold {
+  font-weight: bold;
 }
 

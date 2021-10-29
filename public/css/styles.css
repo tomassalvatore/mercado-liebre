@@ -3,6 +3,18 @@ h1 {
   padding: 0;
 }
 
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.top-nav-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
 nav.navbar ul {
   padding: 10px 0px;
   margin: 0;
@@ -25,16 +37,47 @@ nav.navbar ul li a {
   margin: 5px;
 }
 
-.divisory-line {
+.product {
+  margin: 15px 0;
   background-color: white;
-  border-top: solid #ebebeb 1px;
 }
 
-.fa-truck {
+.product .product-content {
+  position: relative;
+  padding: 15px;
+  border-top: solid #ebebeb 1px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product .product-content .price {
+  font-size: 18px;
+  width: 30%;
+}
+
+.product .product-content .discount {
+  width: 70%;
+}
+
+.product-content .fa-truck {
+  display: block;
+  position: absolute;
   color: green;
-  padding: 5px;
   border: solid green 1px;
+  background-color: white;
+  font-size: 16px;
+  padding: 5px;
   border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  right: 20px;
+  top: -15px;
+}
+
+.descripcion {
+  font-weight: 800;
+  color: #4e4a4a;
+  margin-top: 15px;
 }
 
 footer .fas {

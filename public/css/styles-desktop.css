@@ -1,0 +1,13 @@
+@media (min-width: 1200px) {
+  .top-nav-container {
+    max-width: 800px;
+  }
+
+  .wrapper {
+    width: 25%;
+  }
+
+  .descripcion {
+    display: none;
+  }
+}

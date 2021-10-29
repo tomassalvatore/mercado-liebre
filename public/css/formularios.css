@@ -1,0 +1,36 @@
+.form-container {
+  padding: 10px;
+}
+
+.input-text,
+.input-email,
+.input-password,
+.input-date {
+  width: 90vw;
+  font-size: 18px;
+  padding: 5px;
+}
+
+form div,
+form p {
+  margin-bottom: 10px;
+}
+
+.user-profile-container,
+.intereses-container {
+  margin-left: 15px;
+}
+
+form button {
+  width: 90vw;
+  padding: 10px 20px;
+  background-color: blue;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: yellow;
+  transition-duration: 150ms;
+}
