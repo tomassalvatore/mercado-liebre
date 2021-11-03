@@ -28,9 +28,26 @@ form button {
   color: white;
   font-size: 15px;
   cursor: pointer;
+  transition: all 450ms;
 }
 
 button:hover {
-  background-color: yellow;
-  transition-duration: 150ms;
+  background-color: #0022AA;
+}
+
+@media (min-width: 1200px) {
+  .input-text,
+  .input-email,
+  .input-password,
+  .input-date {
+    width: 40vw;
+    font-size: 18px;
+    padding: 5px;
+  }
+  form button {
+    width: 40vw;
+  }
+  .form-container {
+    text-align: center;
+  }
 }

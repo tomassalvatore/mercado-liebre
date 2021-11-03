@@ -3,11 +3,51 @@
     max-width: 800px;
   }
 
+  .search-bar {
+    margin: 5px;
+  }
+
+  .search-bar .input-nav {
+    font-size: 18px;
+    padding: 10px;
+  }
+
+  .search-bar .button-nav {
+    font-size: 18px;
+    padding: 10px;
+  }
+
+  .banner {
+    width: 100%;
+  }
   .wrapper {
     width: 25%;
   }
 
   .descripcion {
     display: none;
+  }
+
+  .product {
+    box-shadow: none;
+    transition: all 1s;
+  }
+
+  .product:hover {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+  }
+
+  .product:hover .descripcion{
+    display: initial;
+  }
+
+  .product:hover .fa-truck {
+    animation: girar 1s 1;
+  }
+
+  @keyframes girar {
+    0% {
+    transform: rotate(1turn);
+    }
   }
 }

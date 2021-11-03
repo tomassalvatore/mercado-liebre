@@ -5,6 +5,28 @@
     margin: 0 auto;
   }
 
+  .search-bar {
+    width: 100%;
+    position: relative;
+  }
+
+  .search-bar .input-nav {
+    width: 90%;
+    font-size: 12px;
+    padding: 5px;
+    border: none;
+    border-right: solid 0.5px #4e4a4a;
+  }
+
+  .search-bar .button-nav {
+    font-size: 12px;
+    padding: 5px;
+    background-color: white;
+    border-style: none;
+    position: absolute;
+    cursor: pointer;
+  }
+
   .logo {
     width: 25%;
   }
@@ -47,7 +69,20 @@
 
   .navbar li {
     display: inline-block;
-    margin-left: 5px;
+    margin-left: 10px;
   }
 
+  footer {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+  }
+
+  footer .copyright {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
 }
