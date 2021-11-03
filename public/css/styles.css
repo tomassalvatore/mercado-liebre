@@ -84,3 +84,17 @@ nav.navbar ul li a {
 footer .fas {
   color: #1259c3;
 }
+
+footer section p {
+  margin-top: 5px;
+}
+
+footer i {
+  font-size: 2em;
+  margin-bottom: 10px;
+  transition: 475ms;
+}
+
+footer i:hover {
+  color: #8a8322;
+}
