@@ -45,6 +45,15 @@
     animation: girar 1s 1;
   }
 
+  footer {
+    justify-content: center;
+  }
+
+  footer section p {
+    padding-right: 10px;
+    max-width: 300px;
+  }
+
   @keyframes girar {
     0% {
     transform: rotate(1turn);
