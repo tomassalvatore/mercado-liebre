@@ -4,8 +4,9 @@
   }
 
   .navbar {
-    justify-content: space-around;
-    max-width: 1200px;
+    justify-content: space-between;
+    width: 1200px;
+    margin: auto;
   }
 
   .search-bar {
