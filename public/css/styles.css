@@ -49,15 +49,16 @@ nav.navbar ul li a {
   border-top: solid #ebebeb 1px;
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
+  gap: var(--gap, 1rem);
 }
 
 .product .product-content .price {
   font-size: 18px;
-  width: 30%;
 }
 
-.product .product-content .discount {
-  width: 70%;
+.product .product-content .descripcion {
+  margin: 0 10px;
 }
 
 .product-content .fa-truck {

@@ -36,6 +36,10 @@ button:hover {
 }
 
 @media (min-width: 1200px) {
+  .form-container {
+    text-align: center;
+  }
+
   .input-text,
   .input-email,
   .input-password,
@@ -47,7 +51,11 @@ button:hover {
   form button {
     width: 40vw;
   }
-  .form-container {
-    text-align: center;
+
+  .user-profile-container,
+  .intereses-container {
+    text-align: justify;
+    margin-left: 40%;
+    margin-bottom: 20px;
   }
 }
