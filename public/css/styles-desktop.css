@@ -3,6 +3,11 @@
     max-width: 800px;
   }
 
+  .navbar {
+    justify-content: space-around;
+    max-width: 1200px;
+  }
+
   .search-bar {
     margin: 5px;
   }
