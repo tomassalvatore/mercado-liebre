@@ -78,6 +78,10 @@ nav.navbar ul li a {
   margin-top: 15px;
 }
 
+footer {
+  background-color: white;
+}
+
 footer .fas {
   color: #1259c3;
 }
